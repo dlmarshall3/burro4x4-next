@@ -33,7 +33,7 @@ export default function AddVehicle() {
   return (
     <>
       <form onSubmit={onFormSubmit}>
-        <div className="border border-1 border-gray p-8 rounded-lg flex flex-col">
+        <div className="p-8 rounded-lg flex flex-col">
           <h2 className="text-3xl mb-4">Add new vehicle</h2>
           <div className="flex flex-col mb-4">
             <input
