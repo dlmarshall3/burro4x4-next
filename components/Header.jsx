@@ -16,7 +16,7 @@ export default function HeaderComponent() {
       </Link>
       {user && (
         <Link href={"/api/auth/logout"}>
-          <h2 className="text-xl mr-4">Logout</h2>
+          <h2 className="text-xl mr-12">Logout</h2>
         </Link>
       )}
     </div>
